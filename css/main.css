@@ -1,0 +1,127 @@
+
+
+body {
+background-color: #dccb84;
+font-family:'Raleway', sans-serif;
+}
+
+.header {
+	background: #eae1b8;
+	position: absolute;
+	border-bottom: 2px;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bolder;
+
+}
+
+
+#instructions  {
+	
+		}
+
+
+
+.shopping-menu {
+	height: 100px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+.shopping-menu ul li {
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+	padding: 30px;
+	color: #545454;
+
+}
+
+.item-entry {
+padding-top: 300px;
+}
+
+textarea {
+	padding: 0;
+	margin: 0;
+	width: 500px;
+	margin-left: 350px;
+}
+
+
+
+#add-veg li {
+	background: #57A639;
+	border: px solid black;
+	width: 500px;
+	height: 20px;
+	margin-left: 350px;
+	margin-top: 30px;
+}
+
+#add-dairy li {
+	background: #44B4D5;
+	border: px solid black;
+	width: 500px;
+	height: 20px;
+	margin-left: 350px;
+}
+
+#add-meat li {
+	background: #ff4848;
+	border: px solid black;
+	width: 500px;
+	height: 20px;
+	margin-left: 350px;
+
+}
+
+#add-seafood li {
+	background: #892EE4;
+	border: px solid black;
+	width: 500px;
+	height: 20px;
+	margin-left: 350px;
+}
+
+#add-drinks li {
+	background: #CFCFC4;
+	border: px solid black;
+	width: 500px;
+	height: 20px;
+	margin-left: 350px;
+
+}
+
+footer {
+	background: #333333;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 0;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px
+}
+
+footer ul li {
+	list-style: none;
+	display: inline;
+	color: #fff;
+	padding-bottom: 0px;
+	text-align: center;
+	font: #fff;
+}
+
+i:before {
+color: #fff;
+display: inline-block;
+cursor: pointer;
+line-height: 1em;
+font-size: xx-large;
+}
