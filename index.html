@@ -15,13 +15,16 @@
 <body>
 	<div class="header">
 		<div id="header-text">
-			<h1>Shopping List</h1>
-		</div>
+			<h1>Shopping List</h1></div>
+		
 		<div id="header-content">
-			<h2>by @JennTurnr</h2>
+			<p><a href="https://twitter.com/jennturn3r">by @JennTurnr</a></p></div>
 		</div>
-	</div>
+	
 
+	<div id="instructions">
+			<p>Type in an item below to begin your color coded grocery list.</p>
+		</div>
 	<div class="main">
 		<div class="shopping-menu">
 			<ul id="menu-icons">
@@ -39,7 +42,15 @@
 		</div>
 
 		<div class="item-entry">
-			<textarea></textarea>
+			<form action ="text" method="post">
+				<div="check-box">
+				<input type="text" name="item" placeholder="Type in item here."> <!-- Item Entry and placeholder text.-->
+				<input type="checkbox" name="checked-item"> <!--Checkbox in generated list -->
+				<input type="submit" name="submit" value="Send"> <!-- User hits enter -->
+
+			</div>
+			<!-- <textarea></textarea> -->
+		</form>
 			<ul id="add-veg">
 			<li>veg-green</li>
 		</ul>
@@ -52,22 +63,22 @@
 		<ul id="add-seafood">
 			<li>seafood-purple</li>
 		</ul>
+		<ul id="add-fruits">
+			<li>fruits-orange</li>
+		</ul>
 		<ul id="add-drinks">
-			<li>drinks-gray</li>
+			<li>drinks-teal</li>
 		</ul>
 		</div>
 
 		</div>
 	
-	<div id="instructions">
-			<p>Click on an item to begin your color coded grocery list.</p>
-		</div>
 
 <footer>
 	<ul id="footer-menu">
-		<li><a href="https://github.com/jennturnr" alt="Github Profile">
+		<!--<li><a href="https://github.com/jennturnr" alt="Github Profile">
 			<i class="fa fa-github"</i></a></li>
-		<li><a href="https://twitter.com/JennTurn3r" alt="Twitter Profile"><i class="fa fa-twitter-square"></a></li>
+		<li><a href="https://twitter.com/JennTurn3r" alt="Twitter Profile"><i class="fa fa-twitter-square"></a></li> -->
 		<li>Made in Thinkful FEWD heart shape</li>
 	</ul>
 

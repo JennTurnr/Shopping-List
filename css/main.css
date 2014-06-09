@@ -13,11 +13,22 @@ font-family:'Raleway', sans-serif;
 	height: 60px;
 	width: 100%;
 	text-align: center;
-	font-size: x-large;
+	font-size: xx-large;
 	font-weight: bolder;
-
 }
 
+#header-content {
+	font-size: medium;
+	margin-left: 10px;
+	margin-top: 5px;
+	color: blue;
+	text-decoration: none;
+}
+
+#header-content a:hover {
+	text-decoration: none;
+	color: #25d09f;
+}
 
 
 .shopping-menu {
@@ -35,61 +46,107 @@ font-family:'Raleway', sans-serif;
 	color: #545454;
 
 }
+/*Vegetarian */
+.shopping-menu ul li:first-child {
+	color: #57A639;
+	font-weight: bolder;
+}
+/* Dairy */
+.shopping-menu ul li:nth-child(2) {
+	color: #44B4D5;
+	font-weight: bolder;
+}
+/* Meat */
+.shopping-menu ul li:nth-child(3) {
+	color: #ff4848;
+	font-weight: bolder;
+}
+/* Seafood */
+.shopping-menu ul li:nth-child(4) {
+	color: #892EE4;
+	font-weight: bolder;
+}
+/* Fruits */
+.shopping-menu ul li:nth-child(5) {
+	color: #db8e00;
+	font-weight: bolder;
+}
+
+.shopping-menu ul li:nth-child(6) {
+	color: #25d09f;
+	font-weight: bolder;
+}
 
 .item-entry {
 padding-top: 300px;
 }
 
-textarea {
+#instructions {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 390px;
+	font-weight: bolder;
+
+}
+
+/* textarea */ form {
 	padding: 0;
 	margin: 0;
 	width: 500px;
-	margin-left: 350px;
+	margin-left: 375px;
+	margin-top: 0px;
 }
 
 
 
 #add-veg li {
 	background: #57A639;
-	border: px solid black;
+	/*border: px solid black */
 	width: 500px;
 	height: 20px;
-	margin-left: 350px;
+	margin-left: 375px;
 	margin-top: 30px;
 }
 
 #add-dairy li {
 	background: #44B4D5;
-	border: px solid black;
+	/*border: px solid black */
 	width: 500px;
 	height: 20px;
-	margin-left: 350px;
+	margin-left: 375px;
 }
 
 #add-meat li {
 	background: #ff4848;
-	border: px solid black;
+	/*border: px solid black */
 	width: 500px;
 	height: 20px;
-	margin-left: 350px;
+	margin-left: 375px;
 
 }
 
 #add-seafood li {
 	background: #892EE4;
-	border: px solid black;
+	/*border: px solid black */
 	width: 500px;
 	height: 20px;
-	margin-left: 350px;
+	margin-left: 375px;
+}
+
+#add-fruits li {
+	background: #f59e00;
+	/*border: px solid black */
+	width: 500px;
+	height: 20px;
+	margin-left: 375px;
 }
 
 #add-drinks li {
-	background: #CFCFC4;
-	border: px solid black;
+	background: #25d09f;
+	/*border: px solid black */
 	width: 500px;
 	height: 20px;
-	margin-left: 350px;
-
+	margin-left: 375px;
 }
 
 footer {
@@ -114,10 +171,10 @@ footer ul li {
 	font: #fff;
 }
 
-i:before {
+i {
 color: #fff;
 display: inline-block;
 cursor: pointer;
 line-height: 1em;
-font-size: xx-large;
+font-size: x-large;
 }
