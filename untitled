@@ -1,0 +1,122 @@
+// onready
+$(function() {
+  
+  // make sure jquery is running ok
+  $( '#item' ).css({ background: '#25d09f' });
+  
+  // append to page
+  $( 'body' ).append('');
+  //$( 'label' ).append( '<em>(required)</em>' );
+  $( '<em>(required)</em>' ).insertBefore( 'label' );
+  
+  // read the value
+  $( 'form' ).on('submit', function(event) {
+  event.preventDefault();
+    var text = $( '#item' ).val();
+    $('<form>','<ul>','<li>').text(' ').appendTo('body');
+  });
+});
+
+
+
+
+// onready
+function addListItem() {
+  var text= $('#new-items').val();
+  $('#list').append('<li>' +text+ '</li>');
+  $('#list').val('');
+}
+
+
+$(function() {
+  $('#add').on('click', addListItem);
+
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// onready
+$(function() {
+  
+  // make sure jquery is running ok
+  $( '#item' ).css({ background: '#25d09f' });
+  
+  // append to page
+  $( 'body' ).append( '' );
+  //$( 'label' ).append( '<em>(required)</em>' );
+  $( '<em>(required)</em>' ).insertBefore( 'label' );
+  
+  // read the value
+  $( 'form' ).on( 'submit', function( event ) {
+  
+    event.preventDefault();
+    var text = $( '#item' ).val();
+    $( '<form>','<ul>', '<li>' ).text( text ).appendTo( 'body' );
+  
+};
+
+
+
+// onready
+$(function() {
+  
+  // make sure jquery is running ok
+  $( '#item' ).css({ background: '#25d09f' });
+  
+  // append to page
+  $( 'body' ).append( '' );
+  //$( 'label' ).append( '<em>(required)</em>' );
+  $( '<em>(required)</em>' ).insertBefore( 'label' );
+
+
+
+
+
+
+
+
+
+
+  // onready
+$(function() {
+  // make sure jquery is running ok
+  $( '#item' ).css({ background: '#25d09f' });
+  
+  // append to page
+  $( 'body' ).append('<ul>');
+  //$( 'label' ).append( '<em>(required)</em>' );
+  $( '<em>(required)</em>' ).insertBefore( 'label' );
+  
+  // read the value
+  $('form').on('submit', function(event) {
+  event.preventDefault();
+    var text = $( '#item' ).val();
+    $('<form>','<ul>').text('<li>').appendTo('body');
+  });
+});
+

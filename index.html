@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/css/reset.css">
 	<link rel="stylesheet" href="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/app.js"></script>
+	<script src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/js/app.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/css/font-awesome-4.1.0/css/font-awesome.css">
 </head>
@@ -22,9 +22,9 @@
 		</div>
 	
 
-	<div id="instructions">
+	<!-- <div id="instructions">
 			<p>Type in an item below to begin your color coded grocery list.</p>
-		</div>
+		</div> -->
 	<div class="main">
 		<div class="shopping-menu">
 			<ul id="menu-icons">
@@ -41,37 +41,29 @@
 			</ul>
 		</div>
 
-		<div class="item-entry">
-			<form action ="text" method="post">
-				<div="check-box">
-				<input type="text" name="item" placeholder="Type in item here."> <!-- Item Entry and placeholder text.-->
-				<input type="checkbox" name="checked-item"> <!--Checkbox in generated list -->
-				<input type="submit" name="submit" value="Send"> <!-- User hits enter -->
+<!-- <h2>Shopping List</h2>
+<ul id="list">
+	<li>Juice<button>Delete</button></li>
+	<li>Milk<button>Delete</button></li>
+</ul>
+<input type="text" id="new-items"/><button id="Add">Add</button> -->
 
-			</div>
-			<!-- <textarea></textarea> -->
+
+		<!-- Adding items to the list -->
+	  <form>
+		<label for="item">Add Items Here</label>
+		<input id="item" type="text" placeholder="Type here" required>
+		<input type="submit" value="Enter">
+		<ul id="food-list">
+			<li></li>
+		</ul>
 		</form>
-			<ul id="add-veg">
-			<li>veg-green</li>
-		</ul>
-		<ul id="add-dairy">
-			<li>dairy-blue</li>
-		</ul>
-		<ul id="add-meat">
-			<li>meat-red</li>
-		</ul>
-		<ul id="add-seafood">
-			<li>seafood-purple</li>
-		</ul>
-		<ul id="add-fruits">
-			<li>fruits-orange</li>
-		</ul>
-		<ul id="add-drinks">
-			<li>drinks-teal</li>
-		</ul>
-		</div>
 
-		</div>
+	
+		
+
+			<!-- <textarea></textarea> -->
+		
 	
 
 <footer>

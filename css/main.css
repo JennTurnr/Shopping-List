@@ -30,8 +30,21 @@ font-family:'Raleway', sans-serif;
 	color: #25d09f;
 }
 
+label {
+	display: block;
+	color: green;
+}
 
-.shopping-menu {
+input {
+	font: inherit;
+	margin-top: 25px;
+	padding-left: 85px;
+}
+
+/* form ul li {
+	margin-left: 80px;
+}
+/* .shopping-menu {
 	height: 100px;
 	position: absolute;
 	margin-left: 200px;
@@ -44,7 +57,7 @@ font-family:'Raleway', sans-serif;
 	display: inline;
 	padding: 30px;
 	color: #545454;
-
+*/ 
 }
 /*Vegetarian */
 .shopping-menu ul li:first-child {
@@ -96,7 +109,6 @@ padding-top: 300px;
 	margin-left: 375px;
 	margin-top: 0px;
 }
-
 
 
 #add-veg li {
