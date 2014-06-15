@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/js/app.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Sirin+Stencil|Walter+Turncoat|Raleway:400,600|Lobster+Two:400,700|Chelsea+Market' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/css/font-awesome-4.1.0/css/font-awesome.css">
 </head>
 
@@ -19,25 +19,24 @@
 		
 		<div id="header-content">
 			<p><a href="https://twitter.com/jennturn3r">by @JennTurnr</a></p></div>
-		</div>
-	
+		</div>	
 
-	<!-- <div id="instructions">
-			<p>Type in an item below to begin your color coded grocery list.</p>
-		</div> -->
+	<div id="instructions">
+			<p>Type in an item below to begin your grocery list. Click on the menu items on the left to get some  nutrition tips for your selected item.</p>
+		</div>
 	<div class="main">
 		<div class="shopping-menu">
 			<ul id="menu-icons">
-				<li><img src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/images/carrot3.png">Vegetarian</img></li>
+				<li><img src="images/carrot3.png">Vegetarian</img></li>
 
-				<li><img src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/images/eggs.png"></img>Dairy</li>
+				<li><img src="images/eggs.png"></img>Dairy</li>
 
-				<li><img src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/images/chicken7.png"></img>Meat</li>
+				<li><img src="images/chicken7.png"></img>Meat</li>
 
-				<li><img src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/images/fried.png">Seafood</img></li>
+				<li><img src="images/fried.png">Seafood</img></li>
 
-				<li><img src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/images/apple.png">Fruit</img></li>
-				<li><img src="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/images/milk2.png">Drinks</img></li>
+				<li><img src="images/apple.png">Fruit</img></li>
+				<li><img src="images/milk2.png">Drinks</img></li>
 			</ul>
 		</div>
 
@@ -55,12 +54,15 @@
 		<input id="item" type="text" placeholder="Type here" required>
 		<input type="submit" value="Enter">
 		<ul id="food-list">
-			<li></li>
+			<li><a href="">x</a>Water<input type="checkbox" value="None" class="checked-box" name="check"></li>
+			<li><a href="">x</a> Apples<input type="checkbox" value="None" class="checked-box" name="check"></li>
+			<li><a href="">x</a> Honey<input type="checkbox" value="None" class="checked-box" name="check"></li>
+			<li><a href="">x</a> Milk<input type="checkbox" value="None" class="checked-box" name="check"/></li>
 		</ul>
 		</form>
 
 	
-		
+	
 
 			<!-- <textarea></textarea> -->
 		
@@ -68,10 +70,10 @@
 
 <footer>
 	<ul id="footer-menu">
-		<!--<li><a href="https://github.com/jennturnr" alt="Github Profile">
-			<i class="fa fa-github"</i></a></li>
-		<li><a href="https://twitter.com/JennTurn3r" alt="Twitter Profile"><i class="fa fa-twitter-square"></a></li> -->
-		<li>Made in Thinkful FEWD heart shape</li>
+		<!-- <li><a href="https://github.com/jennturnr" alt="Github Profile"></a>
+			<i class="fa fa-github"></i></li>
+		<li><a href="https://twitter.com/JennTurn3r" alt="Twitter Profile"></a><i class="fa fa-twitter-square"></li> -->
+		<li>Made in <span id="thinkful"><a href="http://www.thinkful.com/">Thinkful</a></span> FEWD<i class="fa fa-heart fa-lg"></i></li>
 	</ul>
 
 

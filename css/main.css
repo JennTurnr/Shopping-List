@@ -5,6 +5,11 @@ background-color: #dccb84;
 font-family:'Raleway', sans-serif;
 }
 
+h1 {
+	font-family:'Sirin Stencil', cursive;
+	font-weight: 700;
+	color: #696969;
+}
 
 .header {
 	background: #eae1b8;
@@ -20,15 +25,25 @@ font-family:'Raleway', sans-serif;
 #header-content {
 	font-size: medium;
 	margin-left: 10px;
-	margin-top: 5px;
+	margin-top: 8px;
 	color: blue;
+	text-decoration: none;
+}
+
+#header-content a {
+	color: #25d09f;
 	text-decoration: none;
 }
 
 #header-content a:hover {
 	text-decoration: none;
-	color: #25d09f;
+	color: #38dcad;
 }
+	/* #27d8a5; */
+
+	/* #ee5309; */
+
+
 
 label {
 	display: block;
@@ -41,24 +56,50 @@ input {
 	padding-left: 85px;
 }
 
-/* form ul li {
-	margin-left: 80px;
-}
-/* .shopping-menu {
-	height: 100px;
-	position: absolute;
-	margin-left: 200px;
-	margin-top: 60px;
+
+#food-list li {
+	border: 1px solid #25d09f;
+	border-radius: 4px;
+	width: 80%;
+	background: #696969;
+	font-weight: bolder;
+	text-align: center;
 }
 
+#food-list li:hover {
+	color: white;
+
+}
+#food-list a {
+	position: relative;
+	text-decoration: none;
+	color: red;
+}
+
+
+
+
+/* form ul li {
+	margin-left: 80px;
+} */
+
+.shopping-menu {
+	height: 100px;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 60px;
+
+}
+/*
 .shopping-menu ul li {
 	list-style: none;
 	text-decoration: none;
 	display: inline;
 	padding: 30px;
 	color: #545454;
-*/ 
-}
+} */ 
+
+
 /*Vegetarian */
 .shopping-menu ul li:first-child {
 	color: #57A639;
@@ -81,9 +122,13 @@ input {
 }
 /* Fruits */
 .shopping-menu ul li:nth-child(5) {
-	color: #db8e00;
+	color: #ee5309;
 	font-weight: bolder;
 }
+	 /*#db8e00;
+	font-weight: bolder;
+}
+*/
 
 .shopping-menu ul li:nth-child(6) {
 	color: #25d09f;
@@ -94,13 +139,14 @@ input {
 padding-top: 300px;
 }
 
+/* 
 #instructions {
 	position: absolute;
-	margin-top: 200px;
-	margin-left: 390px;
-	font-weight: bolder;
-
-}
+	margin-top: 80px;
+	margin-left: 220px;
+	color: #696969;
+} 
+*/
 
 /* textarea */ form {
 	padding: 0;
@@ -177,16 +223,26 @@ footer {
 footer ul li {
 	list-style: none;
 	display: inline;
-	color: #fff;
+	color: #25d09f;
 	padding-bottom: 0px;
 	text-align: center;
 	font: #fff;
 }
 
+#thinkful a {
+	color: #ee5309;
+	text-decoration: none;
+}
+
 i {
-color: #fff;
+color: #25d09f;
 display: inline-block;
 cursor: pointer;
-line-height: 1em;
+line-height: 5em;
 font-size: x-large;
+padding: 8px;
 }
+
+.fa-lg {
+	color: inherit;
+} 

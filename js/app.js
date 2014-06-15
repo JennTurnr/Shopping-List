@@ -12,8 +12,16 @@ $(function() {
   $( 'form' ).on( 'submit', function( event ) {
     event.preventDefault();
     var text = $( '#item' ).val();
-    $( '<p>' ).text( text ).appendTo( 'body' );
+    $( '<li>' ).text( text ).appendTo( '#food-list' );
     $('#item').val('');
-  });
-  
+
+    // Strikethrough items once checked 
+   
+
+    // Hover delete x button over list 
+
+
+
+    
+  }); 
 }); 
