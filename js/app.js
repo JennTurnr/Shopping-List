@@ -16,11 +16,14 @@ $(function() {
     $('#item').val('');
 
     // Strikethrough items once checked 
-   
+
+
 
     // Hover delete x button over list 
 
 
+
+    // Rearrange list items with drag and drop
 
     
   }); 
