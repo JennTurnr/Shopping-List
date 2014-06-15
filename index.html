@@ -3,7 +3,7 @@
 <head>
 	<title>Jenn's Shopping List</title>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<!-- <title>SHopping List</title> -->
 	<link rel="stylesheet" href="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/css/reset.css">
 	<link rel="stylesheet" href="/Users/JennTurner/Dropbox/THINKFUL/Shopping-List/css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
@@ -27,18 +27,19 @@
 	<div class="main">
 		<div class="shopping-menu">
 			<ul id="menu-icons">
-				<li><img src="images/carrot3.png">Vegetarian</img></li>
+				<li><img src="images/carrot3.png" alt="carrot icon">Vegetarian</img></li>
 
-				<li><img src="images/eggs.png"></img>Dairy</li>
+				<li><img src="images/eggs.png" alt="eggs icon"></img>Dairy</li>
 
-				<li><img src="images/chicken7.png"></img>Meat</li>
+				<li><img src="images/chicken7.png" alt="chicken icon"></img>Meat</li>
 
-				<li><img src="images/fried.png">Seafood</img></li>
+				<li><img src="images/fried.png" alt="fish icon">Seafood</img></li>
 
-				<li><img src="images/apple.png">Fruit</img></li>
-				<li><img src="images/milk2.png">Drinks</img></li>
+				<li><img src="images/apple.png" alt="apple icon">Fruit</img></li>
+				<li><img src="images/milk2.png" alt="drinks icon">Drinks</img></li>
 			</ul>
 		</div>
+	</div>
 
 <!-- <h2>Shopping List</h2>
 <ul id="list">
@@ -54,10 +55,10 @@
 		<input id="item" type="text" placeholder="Type here" required>
 		<input type="submit" value="Enter">
 		<ul id="food-list">
-			<li><a href="">x</a>Water<input type="checkbox" value="None" class="checked-box" name="check"></li>
-			<li><a href="">x</a> Apples<input type="checkbox" value="None" class="checked-box" name="check"></li>
-			<li><a href="">x</a> Honey<input type="checkbox" value="None" class="checked-box" name="check"></li>
-			<li><a href="">x</a> Milk<input type="checkbox" value="None" class="checked-box" name="check"/></li>
+			<li><input type="checkbox" class="completed" value="none" class="checked-box" name="check">Water<button class="delete">Delete</button></li>
+			<li><input type="checkbox" class="completed" value="none" class="checked-box" name="check">Apples<button class="delete">Delete</button></li>
+			<li><input type="checkbox" class="completed" value="none" class="checked-box" name="check">Honey<button class="delete">Delete</button></li>
+			<li><input type="checkbox" class="completed" value="none" class="checked-box" name="check">Milk<button class="delete">Delete</button></li>
 		</ul>
 		</form>
 
@@ -75,6 +76,7 @@
 		<li><a href="https://twitter.com/JennTurn3r" alt="Twitter Profile"></a><i class="fa fa-twitter-square"></li> -->
 		<li>Made in <span id="thinkful"><a href="http://www.thinkful.com/">Thinkful</a></span> FEWD<i class="fa fa-heart fa-lg"></i></li>
 	</ul>
+</footer>
 
 
 

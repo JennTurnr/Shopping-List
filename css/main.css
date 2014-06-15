@@ -54,6 +54,7 @@ input {
 	font: inherit;
 	margin-top: 25px;
 	padding-left: 85px;
+	color: #25d09f;
 }
 
 
@@ -148,7 +149,8 @@ padding-top: 300px;
 } 
 */
 
-/* textarea */ form {
+/* textarea */ 
+form {
 	padding: 0;
 	margin: 0;
 	width: 500px;
@@ -157,6 +159,12 @@ padding-top: 300px;
 }
 
 
+.delete {
+float: right;
+margin-top: 20px;
+
+
+}
 #add-veg li {
 	background: #57A639;
 	/*border: px solid black */
