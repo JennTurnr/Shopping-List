@@ -1,14 +1,14 @@
-
-
 body {
 background-color: #dccb84;
 font-family:'Raleway', sans-serif;
 }
 
+/* Headline and Header Content */ 
 h1 {
 	font-family:'Sirin Stencil', cursive;
 	font-weight: 700;
 	color: #696969;
+	display: none;
 }
 
 .header {
@@ -44,7 +44,7 @@ h1 {
 	/* #ee5309; */
 
 
-
+/* Input field and Label */ 
 label {
 	display: block;
 	color: green;
@@ -57,7 +57,12 @@ input {
 	color: #25d09f;
 }
 
+/* Input field Positioning */ 
+.item-entry {
+padding-top: 300px;
+}
 
+/* Shopping List Entries */
 #food-list li {
 	border: 1px solid #25d09f;
 	border-radius: 4px;
@@ -84,6 +89,7 @@ input {
 	margin-left: 80px;
 } */
 
+/* Shopping Sample Menu Itmes */ 
 .shopping-menu {
 	height: 100px;
 	position: absolute;
@@ -105,27 +111,53 @@ input {
 .shopping-menu ul li:first-child {
 	color: #57A639;
 	font-weight: bolder;
+	text-decoration: none;
+}
+
+.shopping-menu ul li:first-child a {
+	text-decoration: none;
+	color: #57A639;
 }
 /* Dairy */
 .shopping-menu ul li:nth-child(2) {
 	color: #44B4D5;
 	font-weight: bolder;
 }
+
+.shopping-menu ul li:nth-child(2) a {
+	text-decoration: none;
+	color:#44B4D5;
+	}
 /* Meat */
 .shopping-menu ul li:nth-child(3) {
 	color: #ff4848;
 	font-weight: bolder;
+}
+
+.shopping-menu ul li:nth-child(3) a {
+	text-decoration: none;
+	color:#ff4848;
 }
 /* Seafood */
 .shopping-menu ul li:nth-child(4) {
 	color: #892EE4;
 	font-weight: bolder;
 }
+
+.shopping-menu ul li:nth-child(4) a {
+	text-decoration: none;
+	color:#892EE4;
+}
 /* Fruits */
 .shopping-menu ul li:nth-child(5) {
 	color: #ee5309;
 	font-weight: bolder;
 }
+
+.shopping-menu ul li:nth-child(5) a {
+	text-decoration: none;
+	color: #ee5309;
+	}
 	 /*#db8e00;
 	font-weight: bolder;
 }
@@ -136,20 +168,37 @@ input {
 	font-weight: bolder;
 }
 
-.item-entry {
-padding-top: 300px;
+.shopping-menu ul li:nth-child(6) a {
+	text-decoration: none;
+	color: #25d09f;
 }
 
-/* 
 #instructions {
 	position: absolute;
-	margin-top: 80px;
-	margin-left: 220px;
+	margin-top: 260px;
+	margin-left: 0px;
 	color: #696969;
+	border: 3px solid #25d09f;
+	border-radius: 2px;
+	height: 85px;
+	width: 250px;
+	background: #eae1b8;
+	display: none;
 } 
-*/
+
+/*font-family: 'Frijole', cursive;
+	color: #000;
+	font-size: xx-large;
+	position: absolute;
+	left: 500px;
+	height: 300px;
+	width: 600px;
+	padding-top: 400px; */ 
 
 /* textarea */ 
+
+
+/* Styling for Form */ 
 form {
 	padding: 0;
 	margin: 0;
@@ -158,13 +207,12 @@ form {
 	margin-top: 0px;
 }
 
-
+/* Delete Button */ 
 .delete {
 float: right;
 margin-top: 20px;
-
-
 }
+
 #add-veg li {
 	background: #57A639;
 	/*border: px solid black */
@@ -215,6 +263,7 @@ margin-top: 20px;
 	margin-left: 375px;
 }
 
+/* Footer Section */ 
 footer {
 	background: #333333;
 	position: fixed;
