@@ -55,10 +55,13 @@ input {
 	margin-top: 25px;
 	padding-left: 85px;
 	color: #25d09f;
+	padding-top: 5px;
 }
 
+
+
 /* Input field Positioning */ 
-.item-entry {
+.item {
 padding-top: 300px;
 }
 
@@ -204,7 +207,7 @@ form {
 	margin: 0;
 	width: 500px;
 	margin-left: 375px;
-	margin-top: 0px;
+	margin-top: 2px;
 }
 
 /* Delete Button */ 
