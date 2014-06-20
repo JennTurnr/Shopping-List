@@ -21,7 +21,9 @@ function strikeItem() {
   if ( $(this).parent().css('textDecoration') != 'line-through') {
     $(this).parent().css('textDecoration', 'line-through');
   } else {
-  $(this).parent().css('textDecoration', 'linethrough').remove('textDecoration', 'line-through');
+  $(this).parent().css('textDecoration', 'none');
+
+  //.remove('textDecoration', 'line-through');
 }
 }
 
