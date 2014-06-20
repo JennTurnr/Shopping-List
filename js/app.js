@@ -16,15 +16,24 @@ function deleteItem () {
 $(this).parent().remove();
 }
 
- //function to strikethrough and unstrike checkbox
- function strikeItem() {
+
+function strikeItem() {
   if ( $(this).parent().css('textDecoration') != 'line-through') {
     $(this).parent().css('textDecoration', 'line-through');
   } else {
-  $(this).parent().css('textDecoration', 'line-through').remove('textDecoration','line-through');
-  //unstrike syntax 
- }
+  $(this).parent().css('textDecoration', 'linethrough').remove('textDecoration', 'line-through');
 }
+}
+
+ //function to strikethrough and unstrike checkbox
+ //function strikeItem() {
+  //if ( $(this).parent().css('textDecoration') != 'line-through') {
+    //$(this).parent().css('textDecoration', 'line-through');
+  //} else {
+    //$(this).parent().css('textDecoration', 'line-through').remove('textDecoration','line-through');
+  //unstrike syntax 
+ //}
+//}
 
 //This function adds items, deletes item with delete button, strikes through items but doesn't strike off
   $(function(){
