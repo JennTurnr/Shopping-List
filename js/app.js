@@ -3,8 +3,8 @@ $("h1").show(1500);
 $('#instructions').fadeIn(2500);
 });
 
+
 function addItem () {
-  //Make live typing visible
   var text=$('#item').val();
   $('#food-list').append('<li><input type="checkbox" class="completed"/>'+text+'<button class="delete">Delete</button></li>');
   $('#item').val('');
@@ -16,14 +16,29 @@ function deleteItem () {
 $(this).parent().remove();
 }
 
+//function strikeItem() {
+  //if ($('.completed').hasClass(':checked')) {
+    //$(this).toggleClass();
+  //}
+// }
 
-function strikeItem() {
-  if ( $(this).parent().css('textDecoration') != 'line-through') {
-    $(this).parent().css('textDecoration', 'line-through');
-  } else {
-  $(this).parent().css('textDecoration', 'none');
+
+function strikeItem () {
+$(this).parent().parent().parent().toggleClass('done');
 }
-}
+
+
+//function strikeItem() {
+  //if ( $(this).parent().css('textDecoration') != 'line-through') {
+    //$(this).parent().css('textDecoration', 'line-through');
+// } else {
+  // $(this).parent().css('textDecoration', 'line-through');
+// }
+// }
+
+//if checkbox is checked, add strikethrough
+//if checkbox is unchecked, remove strikethrough which would be none not remove most likely.
+// if ($(this).parent().hasClass(':checked'))
 
  //function to strikethrough and unstrike checkbox
  //function strikeItem() {
@@ -41,7 +56,7 @@ function strikeItem() {
   //$('.delete').on('click', deleteItem);
   //$('.completed').on('click', strikeItem);
   $(document).on('click', '.delete', deleteItem);
- $(document).on('click', '.completed', strikeItem);
+  $(document).on('click', '.completed', strikeItem);
 });
 
 

@@ -54,7 +54,7 @@ input {
 	font: inherit;
 	margin-top: 25px;
 	padding-left: 85px;
-	color: #25d09f;
+	color: #333333;
 	padding-top: 5px;
 }
 
@@ -215,6 +215,14 @@ form {
 float: right;
 margin-top: 20px;
 }
+
+.done {
+	text-decoration: line-through;
+}
+
+/* .uncheck {
+	text-decoration: none;
+} */ 
 
 #add-veg li {
 	background: #57A639;
