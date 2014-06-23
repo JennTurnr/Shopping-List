@@ -24,7 +24,7 @@ $(this).parent().remove();
 
 
 function strikeItem () {
-$(this).parent().parent().parent().toggleClass('done');
+$(this).parent().toggleClass('done');
 }
 
 
